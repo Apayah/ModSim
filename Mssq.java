@@ -155,6 +155,7 @@ class Mssq {
             System.out.println("SERVER " + (i + 1));
             System.out.println("   number of jobs ........... =   " + f.format(server[i].number));
             System.out.println("   service time ............. =   " + f.format(server[i].service));
+            System.out.println("   server utilization ....... =   " + f.format((double)server[i].number/index));
             System.out.println("");
         }
     }
