@@ -10,7 +10,7 @@ class MssqSeparate {
 
     public void run(int servernum, double d) {
       
-        double STOP = 20000.0;          /* terminal (close the door) time */
+        double STOP = 18000.0;          /* terminal (close the door) time */
         double INFINITY = 100.0 * STOP;  /* must be much larger than STOP  */       
         long index = 0;                  /* used to count departed jobs         */
         long number = 0;                  /* number in the node                  */
